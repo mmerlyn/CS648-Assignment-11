@@ -27,10 +27,10 @@ This assignment focuses on recreating the Vecta Corp website using Bootstrap fra
 
 ## Assignment Objectives
 
-✅ Implement Bootstrap navigation with nested dropdowns
-✅ Create image carousel with call-to-action overlays
-✅ Use tab component for dynamic content display
-✅ Implement collapse functionality for testimonials
-✅ Create scrollspy navigation with scrollable content
-✅ Apply Bootstrap grid system for responsive layouts
-✅ Integrate Font Awesome icons with Bootstrap buttons
+- ✅ Implement Bootstrap navigation with nested dropdowns
+- ✅ Create image carousel with call-to-action overlays
+- ✅ Use tab component for dynamic content display
+- ✅ Implement collapse functionality for testimonials
+- ✅ Create scrollspy navigation with scrollable content
+- ✅ Apply Bootstrap grid system for responsive layouts
+- ✅ Integrate Font Awesome icons with Bootstrap buttons
