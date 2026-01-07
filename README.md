@@ -1,36 +1,65 @@
-# CS648 Assignment 11
+# Bootstrap Components and Responsive Design
 
-## Assignment Overview
+_This project shows Bootstrap basics like navigation, carousels, tabs, collapse, and scrollspy on the Vecta Corp website template._
 
-This assignment focuses on recreating the Vecta Corp website using Bootstrap framework. The goal is to practice and demonstrate proficiency with Bootstrap components, grid system, and responsive design patterns.
+## Overview
 
-## Requirements
+This project recreates the Vecta Corporation website using Bootstrap 4. It uses Bootstrap components to build an interactive, responsive corporate website.
 
-- Bootstrap CSS and JavaScript properly included
-- Responsive navigation with dropdown menus
-- Carousel component with rotating images
-- Tab component for product information
-- Collapse component for client testimonials
-- Scrollspy navigation on Solutions page
-- Clean, semantic HTML structure
+## Technologies Used
 
-## Bootstrap Components Used
+- HTML5
+- CSS3
+- Bootstrap 4.x
+- jQuery 3.4.1
+- Font Awesome 4.7.0
 
-- Navbar with dropdowns
-- Carousel with indicators and controls
-- Tabs (Nav tabs)
-- Collapse
-- Scrollspy
-- Grid system (container-fluid, row, col)
-- Buttons
-- Cards
+## What I Implemented
 
-## Assignment Objectives
+### Responsive Navigation (index.html & solutions.html)
 
-- ✅ Implement Bootstrap navigation with nested dropdowns
-- ✅ Create image carousel with call-to-action overlays
-- ✅ Use tab component for dynamic content display
-- ✅ Implement collapse functionality for testimonials
-- ✅ Create scrollspy navigation with scrollable content
-- ✅ Apply Bootstrap grid system for responsive layouts
-- ✅ Integrate Font Awesome icons with Bootstrap buttons
+- **Navbar**: Dark-themed navigation bar that collapses on mobile
+- **Dropdowns**: "About Us" and "Our Solutions" have dropdown menus
+- **Mobile Menu**: Hamburger button shows menu on small screens
+
+### Image Carousel (index.html & solutions.html)
+
+- **Auto-rotating Slides**: 4 images cycle automatically
+- **Indicators**: Circular dots show current slide
+- **Controls**: Previous/next arrows for manual navigation
+- **Captions**: Text overlay with "More Info" buttons
+
+### Tab Component (index.html)
+
+- **Product Tabs**: Switch between vProspect, vConvert, and vRetain
+- **Content Panels**: Each tab shows different product info
+
+### Collapse Component (index.html)
+
+- **Expandable Testimonials**: Click buttons to show/hide client quotes
+- **Two Clients**: Aaron D. Tyres and Robin Banks testimonials
+
+### Scrollspy Navigation (solutions.html)
+
+- **Sidebar Navigation**: Quick links to product sections
+- **Auto-highlight**: Current section highlights as you scroll
+
+### Custom CSS
+
+- **Circular Indicators**: Carousel dots styled as circles
+- **Scrollable Content**: Solutions section has scroll overflow
+
+## Learnings
+
+- Building responsive navbars with dropdowns
+- Creating image carousels with controls
+- Using tabs for switching content
+- Making expandable sections with collapse
+- Setting up scrollspy for scroll-based navigation
+- Using Bootstrap data attributes instead of writing JavaScript
+
+---
+
+**Course:** CS 648 - Modern Web Development Frameworks<br>
+**University:** San Diego State University (SDSU)<br>
+**Author:** Merlyn Mercylona M
